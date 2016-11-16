@@ -3,8 +3,17 @@
 	https://github.com/kylefox/jquery-tablesort
 	Version 0.0.11
 */
+(function(factory) {
+	if (typeof define === 'function' && define.amd) {
+		define(['jquery'], factory);
+	} else if (typeof module === 'object' && typeof module.exports === 'object') {
+		module.exports = factory(require('jquery'));
+	} else {
+		factory(jQuery);
+	}
+}(function(jQuery) {
 
-(function($) {
+;(function($) {
 	$.tablesort = function ($table, settings) {
 		var self = this;
 		this.$table = $table;
@@ -129,4 +138,7 @@
 		});
 	};
 
-})(window.Zepto || window.jQuery);
+})(jQuery);
+
+return jQuery.tablesort;
+}));
