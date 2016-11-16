@@ -21,7 +21,6 @@ Just add jQuery & the tablesort plugin to your page:
 <script src="jquery.tablesort.js"></script>
 ```
 
-(The plugin is also compatible with [Zepto.js](https://github.com/madrobby/zepto)).
 
 It's also available via [npm](https://www.npmjs.com/package/jquery-tablesort)
 
