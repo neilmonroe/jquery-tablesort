@@ -1,9 +1,10 @@
 {
   "name": "jquery-tablesort",
-  "version": "0.0.11",
   "homepage": "https://github.com/kylefox/jquery-tablesort",
+  "version": "0.0.12",
   "authors": [
-    "Kyle Fox <kylefox@gmail.com>"
+    "Kyle Fox <kylefox@gmail.com>",
+    "Neil Monroe <neil.monroe@gmail.com>"
   ],
   "description": "A simple, lightweight jQuery plugin for creating sortable tables.",
   "main": "jquery.tablesort.js",
